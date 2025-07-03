@@ -1,0 +1,65 @@
+{
+  "magnet_ring_stepper_config": {
+    "invert_direction": true,
+    "disable_when_idle": true,
+    "step_resolution": "STEP_RESOLUTION_HALF",
+    "full_step_distance": 0.003048,
+    "enable_polarity": "POLARITY_ACTIVE_LOW",
+    "fault_polarity": "POLARITY_ACTIVE_LOW"
+  },
+  "magnet_ring_linear_config": {
+    "limit_polarity": "POLARITY_ACTIVE_LOW",
+    "limit_a_position": "LIMIT_POSITION_NEGATIVE",
+    "limit_b_position": "LIMIT_POSITION_NOT_APPLICABLE",
+    "max_homing_movement_distance": 24.0,
+    "homing_velocity": 3.0,
+    "homing_acceleration": 10.0,
+    "dedicated_home_polarity": "POLARITY_NOT_APPLICABLE",
+    "min_position": null,
+    "max_position": null
+  },
+  "legacy_motor_config": {
+    "max_velocity_rpm": 8000.0,
+    "max_acceleration_rpm_per_sec": 8000.0,
+    "velocity_target_window_rpm": 100.0,
+    "velocity_target_window_percent": 20.0,
+    "velocity_target_time_ms": 500,
+    "position_target_window_deg": 1,
+    "position_target_time_ms": 1000,
+    "homing_coast_duty_cycle": 0.04,
+    "coarse_homing_velocity_rpm": 25.0,
+    "fine_homing_velocity_rpm": 50.0,
+    "invert_disk_index": true,
+    "velocity_control_proportional_term": 220.0,
+    "velocity_control_integral_term": 0.15,
+    "velocity_control_feedforward_term": 87.0,
+    "position_control_proportional_term": 13.8,
+    "position_control_integral_term": 0.04,
+    "encoder_counts_per_revolution": 16384,
+    "invert_direction_control": true,
+    "position_control_velocity_proportional_term": 135,
+    "position_control_velocity_integral_term": 0.15,
+    "position_control_velocity_feedforward_term": 70.0
+  },
+  "temp_control_config": {
+    "disk_emissivity": 1.0,
+    "max_heater_temp_degc": 140.0,
+    "max_on_time_low_speed_sec": 300,
+    "low_speed_rpm": 10,
+    "max_on_time_overall_sec": 3600,
+    "disk_pid_kp": 5.0,
+    "disk_pid_ki": 0.1,
+    "disk_pid_kff": 1e-05,
+    "heater_pid_kp": 0.1,
+    "heater_pid_ki": 0.0001,
+    "heater_pid_kff": 0.0001
+  },
+  "emitter_config": {
+    "path_a_control_kp": 0.0,
+    "path_a_control_ki": 0.0,
+    "path_a_control_kff": 0.0,
+    "path_b_control_kp": 0.0,
+    "path_b_control_ki": 0.0,
+    "path_b_control_kff": 0.0
+  }
+}

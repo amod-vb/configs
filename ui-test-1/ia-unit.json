@@ -1,0 +1,12 @@
+{
+  "unit_config_v1": {
+    "magnet_ring_unit_config": {
+      "distance_sonication_from_bottom": 0.5,
+      "distance_pulldown_from_bottom": 21.5
+    },
+    "motor_unit_config": {
+      "angle_spindle_gripper_alignment": 280,
+      "angular_homing_offset": 1.6
+    }
+  }
+}

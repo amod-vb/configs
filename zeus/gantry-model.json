@@ -1,0 +1,881 @@
+{
+    "pipettor_parameters": [
+        {
+            "name": "cavro_default",
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 25.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 200.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 50.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 1,
+                "base": 200
+            }
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 10.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 20.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 10.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "dispenseConditioning"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 50.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 300.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 75.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "tbstFastAspirate"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.2,
+                "base": 0.0
+            },
+            "top_speed_ulps": {
+                "slope": 1.2,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 1.0,
+                "base": 0.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 1000
+            },
+            "name": "tbstFast"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 25.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 200.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 50.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "water"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 100.0
+            },
+            "top_speed_ulps": {
+                "slope": 1.5,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 10.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "waterFastAspirate"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.2,
+                "base": 0.0
+            },
+            "top_speed_ulps": {
+                "slope": 1.2,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 100.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "waterFast"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 100.0
+            },
+            "top_speed_ulps": {
+                "slope": 1.5,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 100.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "pbsFastAspirate"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 5
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 5
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 5.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "pbsRBC"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.2,
+                "base": 0.0
+            },
+            "top_speed_ulps": {
+                "slope": 1.2,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 100.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "pbsWBC"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 40.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 40.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 10.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "pbsHGB"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 25.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 200.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 50.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "pbsFast"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 25.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 200.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 50.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "wbc"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 25.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 60.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 50.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 500
+            },
+            "name": "firstWash"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.66,
+                "base": 0.0
+            },
+            "top_speed_ulps": {
+                "slope": 2.0,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 1.0,
+                "base": 0.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "lihep"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.66,
+                "base": 0.0
+            },
+            "top_speed_ulps": {
+                "slope": 2.0,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 1.0,
+                "base": 0.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 1000
+            },
+            "name": "lihepDispIA"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.66,
+                "base": 0.0
+            },
+            "top_speed_ulps": {
+                "slope": 2.0,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 1.0,
+                "base": 0.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 250
+            },
+            "name": "lihepDispCC"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.66,
+                "base": 0.0
+            },
+            "top_speed_ulps": {
+                "slope": 2.0,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 100.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "lihepSurge"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.33,
+                "base": 0.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.8,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 100.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 40
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "lihepAspirate"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.66,
+                "base": 0.0
+            },
+            "top_speed_ulps": {
+                "slope": 2.0,
+                "base": 0.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 1.0,
+                "base": 0.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "edta"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 2.5
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 1.1
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 2.5
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 5
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 1000
+            },
+            "name": "edtaRBC"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 30.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 30.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 5.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 5
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 500
+            },
+            "name": "edtaWBC"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 5.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 7.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 2.5
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 10
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 500
+            },
+            "name": "edtaHGB"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 25.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 200.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 50.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "edtaAspirate"
+        },
+        {
+            "start_speed_ulps": {
+                "slope": 0.0,
+                "base": 25.0
+            },
+            "top_speed_ulps": {
+                "slope": 0.0,
+                "base": 200.0
+            },
+            "cutoff_speed_ulps": {
+                "slope": 0.0,
+                "base": 50.0
+            },
+            "ramp_up_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "ramp_down_slope_incs2": {
+                "slope": 0,
+                "base": 20
+            },
+            "settling_time_millis": {
+                "slope": 0,
+                "base": 0
+            },
+            "name": "reset"
+        }
+    ],
+    "wells": [
+        {
+            "bottom_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": -1.155969936484,
+                "c5": 7.474699365057,
+                "c6": -0.497482169253,
+                "c7": -0.015527586328
+            },
+            "height": 27.800005,
+            "name": "pbs",
+            "position_z": -40,
+            "split_height": 1.952197395,
+            "top_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": 0,
+                "c5": 1.25344235763018,
+                "c6": 8.11247286767397,
+                "c7": 3.536459466966
+            }
+        },
+        {
+            "bottom_coefficients": {
+                "c1": 0.0,
+                "c2": 0.0,
+                "c3": 0.0,
+                "c4": 0.0,
+                "c5": 0.0,
+                "c6": 58.832,
+                "c7": 0.0
+            },
+            "height": 73.75,
+            "name": "lihep",
+            "position_z": -15.8,
+            "split_height": 2.064425637,
+            "top_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": 0,
+                "c5": 0,
+                "c6": 88.247,
+                "c7": -155.9
+            }
+        },
+        {
+            "bottom_coefficients": {
+                "c1": 0.0,
+                "c2": 0.0,
+                "c3": 0.0,
+                "c4": 0.0,
+                "c5": 0.0,
+                "c6": 58.832,
+                "c7": 0.0
+            },
+            "height": 73.75,
+            "name": "edta",
+            "position_z": -15.8,
+            "split_height": 2.064425637,
+            "top_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": 0,
+                "c5": 0,
+                "c6": 88.247,
+                "c7": -155.9
+            }
+        },
+        {
+            "bottom_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": -1.156101575521,
+                "c5": 7.475033521639,
+                "c6": -0.47684993397,
+                "c7": -0.015511741292
+            },
+            "height": 52.405,
+            "name": "tbst",
+            "position_z": -40,
+            "split_height": 1.951064751,
+            "top_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": 0,
+                "c5": 1.4554669056006,
+                "c6": 3.39635179459769,
+                "c7": 27.0684201521659
+            }
+        },
+        {
+            "bottom_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": -1.145389816892,
+                "c5": 7.44741404315,
+                "c6": -0.48058735248,
+                "c7": -0.01689186587
+            },
+            "height": 47.8,
+            "name": "water",
+            "position_z": -40,
+            "split_height": 2.064425637,
+            "top_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": 0.0032192125,
+                "c5": 0.64189447865,
+                "c6": 12.3255111362,
+                "c7": -5.88429123514
+            }
+        },
+        {
+            "bottom_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": -1.08146150,
+                "c5": 4.80087397,
+                "c6": -0.07508027,
+                "c7": -0.00436154
+            },
+            "height": 11.67,
+            "name": "saqdp",
+            "position_z": -41,
+            "split_height": 1.382075497,
+            "top_coefficients": {
+                "c1": 0,
+                "c2": 0,
+                "c3": 0,
+                "c4": 0,
+                "c5": 0.40099864,
+                "c6": 5.81909789,
+                "c7": -2.53214835
+            }
+        }
+    ],
+    "pipettor_config": {
+        "plld_threshold_counts": 15,
+        "plld_threshold_duration_ms": 5,
+        "plld_start_position_incs": 0,
+        "plld_speed_incsps": 150,
+        "plld_max_travel_incs": 44000,
+        "plld_direction": 1,
+        "plld_sampling_period_ms": 20
+    },
+    "gripper_z_config": {
+        "homing_coarse_velocity": 20.0,
+        "homing_fine_velocity": 5.0,
+        "min_position": -105.0,
+        "max_position": 5.0,
+        "stop_on_stall": false,
+        "stall_threshold": 8,
+        "run_current": 0.8,
+        "hold_current": 0.4,
+        "check_encoder_at_position": true,
+        "at_position_encoder_error_limit": 1.0,
+        "check_encoder_continuously": true,
+        "continuous_encoder_error_limit": 1.0
+    },
+    "pipettor_z_config": {
+        "homing_coarse_velocity": 20.0,
+        "homing_fine_velocity": 5.0,
+        "min_position": -105.0,
+        "max_position": 5.0,
+        "stop_on_stall": false,
+        "stall_threshold": 8,
+        "run_current": 0.8,
+        "hold_current": 0.4,
+        "check_encoder_at_position": true,
+        "at_position_encoder_error_limit": 1.0,
+        "check_encoder_continuously": true,
+        "continuous_encoder_error_limit": 1.0
+    },
+    "gantry_config": {
+        "homing_coarse_velocity": 20.0,
+        "homing_fine_velocity": 5.0,
+        "x_min_position": -10.0,
+        "x_max_position": 174.0,
+        "y_min_position": -10.0,
+        "y_max_position": 350.0,
+        "stop_on_stall": false,
+        "m1_stall_threshold": 0,
+        "m2_stall_threshold": 0,
+        "m1_run_current": 1,
+        "m1_hold_current": 0.5,
+        "m2_run_current": 1,
+        "m2_hold_current": 0.5,
+        "check_encoder_at_position": true,
+        "at_position_encoder_error_limit": 1.0,
+        "check_encoder_continuously": true,
+        "continuous_encoder_error_limit": 1.0
+    }
+}

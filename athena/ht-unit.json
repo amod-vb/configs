@@ -1,0 +1,40 @@
+{
+  "unit_config_v7": {
+    "motor_unit_config": {
+      "angle_spindle_gripper_alignment": 300,
+      "angular_homing_offset": 1.6
+    },
+    "led_unit_config": {
+      "intensity_bf": 250,
+      "intensity_fl": 750
+    },
+    "focus_unit_config": {
+      "minimum_focus_position": 0.0,
+      "manual_focus_position": 250.0,
+      "focus_shift_zero": -18.0,
+      "focus_shift_red": -14.0,
+      "focus_shift_green": -8.0,
+      "focus_shift_blue_background": 100.0
+    },
+    "image_unit_config": {
+      "gain_bf": 1.5,
+      "gain_flr": 4.0,
+      "gain_flg": 4.0,
+      "gain_df": 4.0,
+      "gain_dfbg": 4.0,
+      "gain_af": 2.0,
+      "exposure_bf": 300,
+      "exposure_flr": 280000,
+      "exposure_flg": 100000,
+      "exposure_df": 3400,
+      "exposure_dfbg": 3400,
+      "exposure_af": 200,
+      "exposure_bf_rbc": 200,
+      "gain_bf_rbc": 1.0,
+      "exposure_flr_plt": 500000,
+      "gain_flr_plt": 7.75,
+      "exposure_flg_plt": 250000,
+      "gain_flg_plt": 2.0
+    }
+  }
+}

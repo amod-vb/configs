@@ -1,0 +1,205 @@
+{
+  "unit_config_v1": {
+    "drawer_pos": {
+      "at_door": 0.0
+    },
+    "gripper_drawer_pos": {
+      "gantry_disc_pickup": {
+        "x": 5.1,
+        "y": 35.5
+      },
+      "gripper_ia_disc_pickup": -87.9,
+      "gripper_cc_disc_pickup": -93.6,
+      "gripper_ht_disc_pickup": -100
+    },
+    "gripper_ia_pos": {
+      "gantry_subsys_spindle": {
+        "x": 4.6,
+        "y": 192.6
+      },
+      "gantry_disc_entry_path_start": {
+        "x": 4.6,
+        "y": 48.0
+      },
+      "gripper_disc_insert_z": -66,
+      "gripper_hub_engage": -75.2
+    },
+    "gripper_cc_pos": {
+      "gantry_subsys_spindle": {
+        "x": 151.1,
+        "y": 192.3
+      },
+      "gantry_disc_entry_path_start": {
+        "x": 151.6,
+        "y": 55.0
+      },
+      "gantry_disc_entry_path_y": {
+        "x": 4.0,
+        "y": 55.0
+      },
+      "gripper_disc_insert_z": -65.4,
+      "gripper_hub_engage": -75.5
+    },
+    "gripper_ht_pos": {
+      "gantry_subsys_spindle": {
+        "x": 46.1,
+        "y": 337.5
+      },
+      "gantry_disc_entry_path_start1": {
+        "x": 120.0,
+        "y": 120.0
+      },
+      "gantry_disc_entry_path_start2": {
+        "x": 46.0,
+        "y": 318.0
+      },
+      "gripper_disc_insert_z": -24,
+      "gripper_hub_engage": -51.1
+    },
+    "pipettor_drawer_pos": {
+      "gantry_tip1_pos": {
+        "x": 140,
+        "y": 86.6
+      },
+      "tip_engage": -102.5,
+      "gantry_reagent_tbst": {
+        "x": 119,
+        "y": 86.5
+      },
+      "gantry_reagent_nfw": {
+        "x": 120,
+        "y": 66.6
+      },
+      "gantry_reagent_pbs": {
+        "x": 120,
+        "y": 53.6
+      },
+      "gantry_reagent_saqdp1": {
+        "x": 120,
+        "y": 42.3
+      },
+      "gantry_reagent_saqdp2": {
+        "x": 120,
+        "y": 31
+      },
+      "gantry_reagent_saqdp3": {
+        "x": 120,
+        "y": 22
+      },
+      "gantry_reagent_saqdp4": {
+        "x": 120,
+        "y": 12.5
+      },
+      "ll_height_tbst": -35.0,
+      "ll_height_nfw": -65.0,
+      "ll_height_pbs": -35.0,
+      "saqdp_well_bottom": -35.0,
+      "gantry_sample_edta": {
+        "x": 170.35,
+        "y": 44.9
+      },
+      "gantry_sample_lihep": {
+        "x": 170.35,
+        "y": 24.0
+      },
+      "sample_tube_plld_start": 28,
+      "microtainer_aspiration_height": -71.5
+    },
+    "pipettor_ia_pos": {
+      "gantry_sample_dispense": {
+        "x": 22,
+        "y": 177.9
+      },
+      "gantry_dilution_buffer_dispense": {
+        "x": 24,
+        "y": 181.8
+      },
+      "gantry_wash_buffer_dispense": {
+        "x": 25,
+        "y": 182
+      },
+      "gantry_wash_buffer_fast_track_dispense": {
+        "x": 24.2,
+        "y": 182.2
+      },
+      "gantry_reporter_dispense": {
+        "x": 28.8,
+        "y": 180.5
+      },
+      "gantry_final_resuspension_dispense": {
+        "x": 33.5,
+        "y": 180.7
+      },
+      "subsystem_height": 0,
+      "fiducial_offcenter": {
+        "x": 0,
+        "y": 0
+      },
+      "disc_dispense": -36.7,
+      "spindle_center": {
+        "x": 30.6,
+        "y": 191.6
+      }
+    },
+    "pipettor_cc_pos": {
+      "gantry_sample_dispense": {
+        "x": 167.5,
+        "y": 188.3
+      },
+      "gantry_dilution_buffer_dispense": {
+        "x": 169,
+        "y": 185
+      },
+      "fiducial_offcenter": {
+        "x": 0,
+        "y": 0
+      },
+      "subsystem_height": 0.0,
+      "spindle_center": {
+        "x": 177.88,
+        "y": 193
+      },
+      "disc_dispense": -36.7
+    },
+    "pipettor_ht_pos": {
+      "gantry_tip_entry_path_start": {
+        "x": 35,
+        "y": 318
+      },
+      "gantry_wbc_dilution_buffer_dispense": {
+        "x": 62.9,
+        "y": 336.5
+      },
+      "gantry_hgb_dilution_buffer_dispense": {
+        "x": 64.6,
+        "y": 335
+      },
+      "gantry_pipette_entry_path_start": {
+        "x": 64.4,
+        "y": 150
+      },
+      "gantry_wbc_sample_dispense": {
+        "x": 55.5,
+        "y": 336.9
+      },
+      "gantry_hgb_sample_dispense": {
+        "x": 72.69,
+        "y": 319.9
+      },
+      "gantry_hgb_waste_sample_dispense": {
+        "x": 62.8,
+        "y": 337.4
+      },
+      "subsystem_height": 0.0,
+      "fiducial_offcenter": {
+        "x": 0,
+        "y": 0
+      },
+      "disc_dispense": -12.9,
+      "spindle_center": {
+        "x": 72.9,
+        "y": 338.5
+      }
+    }
+  }
+}

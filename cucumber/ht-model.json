@@ -1,0 +1,124 @@
+{
+  "legacy_motor_config": {
+    "max_velocity_rpm": 8000.0,
+    "max_acceleration_rpm_per_sec": 20000.0,
+    "velocity_target_window_rpm": 50.0,
+    "velocity_target_window_percent": 20.0,
+    "velocity_target_time_ms": 500,
+    "position_target_window_deg": 0.5,
+    "position_target_time_ms": 500,
+    "homing_coast_duty_cycle": 0.04,
+    "coarse_homing_velocity_rpm": 25.0,
+    "fine_homing_velocity_rpm": 10.0,
+    "invert_disk_index": true,
+    "velocity_control_proportional_term": 500.0,
+    "velocity_control_integral_term": 1.4,
+    "velocity_control_feedforward_term": 90.0,
+    "position_control_proportional_term": 2.5,
+    "position_control_integral_term": 50.0,
+    "encoder_counts_per_revolution": 4000,
+    "invert_direction_control": true,
+    "position_control_velocity_proportional_term": 500.0,
+    "position_control_velocity_integral_term": 1.4,
+    "position_control_velocity_feedforward_term": 90.0
+  },
+  "lateral_movement_stepper_config": {
+    "invert_direction": false,
+    "disable_when_idle": true,
+    "step_resolution": "STEP_RESOLUTION_MICRO_256",
+    "full_step_distance": 1.8,
+    "enable_polarity": "POLARITY_NOT_APPLICABLE",
+    "fault_polarity": "POLARITY_ACTIVE_HIGH"
+  },
+  "lateral_movement_linear_config": {
+    "limit_polarity": "POLARITY_ACTIVE_LOW",
+    "limit_a_position": "LIMIT_POSITION_NEGATIVE",
+    "limit_b_position": "LIMIT_POSITION_NOT_APPLICABLE",
+    "max_homing_movement_distance": 200.0,
+    "homing_velocity": 10,
+    "homing_acceleration": 10.0,
+    "dedicated_home_polarity": "POLARITY_ACTIVE_LOW",
+    "min_position": null,
+    "max_position": null
+  },
+  "focus_lens_stepper_config": {
+    "invert_direction": true,
+    "disable_when_idle": true,
+    "step_resolution": "STEP_RESOLUTION_MICRO_64",
+    "full_step_distance": 1,
+    "enable_polarity": "POLARITY_NOT_APPLICABLE",
+    "fault_polarity": "POLARITY_ACTIVE_HIGH"
+  },
+  "focus_lens_linear_config": {
+    "dedicated_home_polarity": "POLARITY_ACTIVE_HIGH",
+    "homing_acceleration": 500,
+    "homing_velocity": 100,
+    "limit_a_position": "LIMIT_POSITION_NOT_APPLICABLE",
+    "limit_b_position": "LIMIT_POSITION_NOT_APPLICABLE",
+    "limit_polarity": "POLARITY_NOT_APPLICABLE",
+    "max_homing_movement_distance": 100,
+    "max_position": {
+      "some_double": 950
+    },
+    "min_position": {
+      "some_double": 0
+    }
+  },
+  "filter_wheel_stepper_config": {
+    "disable_when_idle": true,
+    "enable_polarity": "POLARITY_NOT_APPLICABLE",
+    "fault_polarity": "POLARITY_ACTIVE_HIGH",
+    "full_step_distance": 0.6,
+    "invert_direction": true,
+    "step_resolution": "STEP_RESOLUTION_MICRO_64"
+  },
+  "filter_wheel_rotary_config": {
+    "home_polarity": "POLARITY_ACTIVE_LOW",
+    "homing_acceleration": 1000,
+    "homing_velocity": 100
+  },
+  "precision_stepper_config": {
+    "disable_when_idle": true,
+    "enable_polarity": "POLARITY_NOT_APPLICABLE",
+    "fault_polarity": "POLARITY_ACTIVE_HIGH",
+    "full_step_distance": 0.03,
+    "invert_direction": true,
+    "step_resolution": "STEP_RESOLUTION_FULL"
+  },
+  "precision_rotary_config": {
+    "home_polarity": "POLARITY_NOT_APPLICABLE",
+    "homing_acceleration": 10,
+    "homing_velocity": 10
+  },
+  "filter_wheel_home_offset": 28.0,
+  "filter_wheel_velocity": 100.0,
+  "filter_wheel_acceleration": 2000.0,
+  "filter_wheel_pos_red": 1.0,
+  "filter_wheel_pos_green": 3.0,
+  "filter_wheel_pos_blank": 2.0,
+  "filter_wheel_pos_blue": 4.0,
+  "focus_lens_velocity": 100.0,
+  "focus_lens_acceleration": 500.0,
+  "lateral_movement_deceleration_position": 110.0,
+  "lateral_movement_ready_position": 125.0,
+  "lateral_movement_engaged_position": 150.0,
+  "lateral_movement_disengaged_position": -35.0,
+  "lateral_movement_velocity": 10.0,
+  "lateral_movement_acceleration": 10.0,
+  "precision_stepper_engage_arclength": 10.0,
+  "precision_stepper_velocity": 5.0,
+  "precision_stepper_acceleration": 10.0,
+  "spindle_deceleration": 100.0,
+  "spindle_position_velocity": 5.0,
+  "spindle_position_acceleration": 100.0,
+  "illuminator_config": {
+    "blue_control_kp": 32,
+    "blue_control_ki": 580,
+    "blue_control_kff": 930,
+    "blue_max_on_time_ms": 4000,
+    "green_control_kp": 240,
+    "green_control_ki": 700,
+    "green_control_kff": 2500,
+    "green_max_on_time_ms": 4000000
+  }
+}

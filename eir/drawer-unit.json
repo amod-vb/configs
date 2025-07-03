@@ -1,0 +1,19 @@
+{
+  "unit_config_v1": {
+    "rocker_pos": {
+      "vertical": -5.0,
+      "max_angle": 95.0
+    },
+    "decapper_pos": {
+      "load_tubes": 1.5,
+      "tube_safe": 27.5,
+      "cap_engage_tube": 17.0
+    },
+    "slider_pos": {
+      "enable_rocking": -2.0,
+      "tube_release": -120.0,
+      "decapper_alignment": -73.0
+    },
+    "drawer_pos": {}
+  }
+}

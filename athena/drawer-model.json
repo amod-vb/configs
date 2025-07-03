@@ -1,0 +1,51 @@
+{
+  "decapper_config": {
+    "homing_coarse_velocity": 20.0,
+    "homing_fine_velocity": 5.0,
+    "min_position": -1.0,
+    "max_position": 35,
+    "stop_on_stall": false,
+    "stall_threshold": 8,
+    "run_current": 1.0,
+    "hold_current": 0.5,
+    "check_encoder_at_position": true,
+    "at_position_encoder_error_limit": 20.0,
+    "check_encoder_continuously": true,
+    "continuous_encoder_error_limit": 20.0
+  },
+  "drawer_config": {
+    "homing_coarse_velocity": 20.0,
+    "homing_fine_velocity": 5.0,
+    "min_position": -300.0,
+    "max_position": 5.0,
+    "stop_on_stall": false,
+    "stall_threshold": 8,
+    "run_current": 1.0,
+    "hold_current": 0.5,
+    "check_encoder_at_position": true,
+    "at_position_encoder_error_limit": 20.0,
+    "check_encoder_continuously": true,
+    "continuous_encoder_error_limit": 20.0
+  },
+  "rocker_config": {
+    "homing_coarse_velocity": 20.0,
+    "homing_fine_velocity": 5.0,
+    "min_position": -10.0,
+    "max_position": 101.0,
+    "stop_on_stall": false,
+    "stall_threshold": 8,
+    "run_current": 0.25,
+    "hold_current": 0.125,
+    "check_encoder_at_position": true,
+    "at_position_encoder_error_limit": 20.0,
+    "check_encoder_continuously": true,
+    "continuous_encoder_error_limit": 20.0
+  },
+  "slider_config": {},
+  "tube_sense_config": {
+    "tube_1_threshold": 0.0,
+    "tube_2_threshold": 0.0,
+    "tube_3_threshold": 0.0,
+    "hysteresis": 0.0
+  }
+}
