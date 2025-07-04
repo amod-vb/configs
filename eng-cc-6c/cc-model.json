@@ -1,0 +1,40 @@
+{
+  "legacy_motor_config": {
+    "max_velocity_rpm": 150000.0,
+    "max_acceleration_rpm_per_sec": 8000.0,
+    "velocity_target_window_rpm": 100.0,
+    "velocity_target_window_percent": 20.0,
+    "velocity_target_time_ms": 500,
+    "position_target_window_deg": 1.0,
+    "position_target_time_ms": 500,
+    "homing_coast_duty_cycle": 0.04,
+    "coarse_homing_velocity_rpm": 25.0,
+    "fine_homing_velocity_rpm": 10.0,
+    "invert_disk_index": true,
+    "velocity_control_proportional_term": 100.0,
+    "velocity_control_integral_term": 1.0,
+    "velocity_control_feedforward_term": 90.0,
+    "position_control_proportional_term": 10.0,
+    "position_control_integral_term": 50.0,
+    "position_control_velocity_proportional_term": 100.0,
+    "position_control_velocity_integral_term": 1.0,
+    "position_control_velocity_feedforward_term": 90.0,
+    "encoder_counts_per_revolution": 4000,
+    "invert_direction_control": true
+  },
+  "temp_control_config": {
+    "disk_emissivity": 1.0,
+    "max_heater_temp_degc": 140.0,
+    "max_on_time_low_speed_sec": 5,
+    "low_speed_rpm": 10,
+    "max_on_time_overall_sec": 3600,
+    "disk_pid_kp": 5,
+    "disk_pid_ki": 0.01,
+    "disk_pid_kd": 0.0,
+    "disk_pid_kff": 0.6,
+    "heater_pid_kp": 0.035,
+    "heater_pid_ki": 7.5e-05,
+    "heater_pid_kd": 0.0,
+    "heater_pid_kff": 0.0042
+  }
+}

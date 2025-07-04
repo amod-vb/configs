@@ -1,0 +1,23 @@
+{
+  "unit_config_v1": {
+    "magnet_ring_unit_config": {
+      "distance_sonication_from_bottom": 0,
+      "distance_pulldown_from_bottom": 21.5
+    },
+    "motor_unit_config": {
+      "angle_spindle_gripper_alignment": 115.90000152,
+      "angular_homing_offset": 1.6
+    },
+    "readout_config": {
+      "readout_power_1": 7.34160913,
+      "readout_power_2": 14.29125806,
+      "readout_power_3": 42.08985378,
+      "readout_power_4": 69.8884495,
+      "readout_power_5": 83.78774736
+    },
+    "sonicator_config": {
+      "amplitude": 28,
+      "amp_offset": 28
+    }
+  }
+}

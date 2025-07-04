@@ -1,0 +1,57 @@
+{
+  "magnet_ring_stepper_config": {
+    "invert_direction": true,
+    "disable_when_idle": true,
+    "step_resolution": "STEP_RESOLUTION_HALF",
+    "full_step_distance": 0.003048,
+    "enable_polarity": "POLARITY_ACTIVE_LOW",
+    "fault_polarity": "POLARITY_ACTIVE_LOW"
+  },
+  "magnet_ring_linear_config": {
+    "limit_polarity": "POLARITY_ACTIVE_LOW",
+    "limit_a_position": "LIMIT_POSITION_NEGATIVE",
+    "limit_b_position": "LIMIT_POSITION_NOT_APPLICABLE",
+    "max_homing_movement_distance": 27.0,
+    "homing_velocity": 2.0,
+    "homing_acceleration": 10.0,
+    "dedicated_home_polarity": "POLARITY_NOT_APPLICABLE"
+  },
+  "motor_config": {
+    "velocity_target_window_under_100_rpm": 10,
+    "velocity_target_window_100_to_1000_rpm": 50,
+    "velocity_target_window_over_1000_rpm": 100,
+    "velocity_target_window_duration_ms": 500,
+    "dead_zone_within_velocity_target_window": false,
+    "position_target_window_deg": 0.5,
+    "position_target_window_duration_ms": 500,
+    "dead_zone_within_position_target_window": true,
+    "coarse_homing_velocity_rpm": 25,
+    "fine_homing_velocity_rpm": 1,
+    "velocity_control_feedforward_term": 1.7e-05,
+    "velocity_control_proportional_term": 5e-05,
+    "velocity_control_integral_term": 0.0004,
+    "position_control_proportional_term": 0.0005,
+    "position_control_integral_term": 15.0
+  },
+  "temp_control_config": {
+    "max_heater_temp_degc": 150.0,
+    "disk_emissivity": 1.0,
+    "max_on_time_low_speed_sec": 300,
+    "low_speed_rpm": 10,
+    "max_on_time_overall_sec": 3600,
+    "disk_pid_kp": 10.0,
+    "disk_pid_ki": 0.1,
+    "disk_pid_kff": 1e-05,
+    "heater_pid_kp": 0.02,
+    "heater_pid_ki": 2e-05,
+    "heater_pid_kff": 0.0025
+  },
+  "emitter_config": {
+    "path_a_control_kp": 0.0001,
+    "path_a_control_ki": 0.1,
+    "path_a_control_kff": 1.05,
+    "path_b_control_kp": 0.0,
+    "path_b_control_ki": 0.0,
+    "path_b_control_kff": 0.0
+  }
+}

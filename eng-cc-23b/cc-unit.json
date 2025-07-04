@@ -1,0 +1,34 @@
+{
+  "unit_config_v1": {
+    "motor_unit_config": {
+      "angle_spindle_gripper_alignment": 115.9,
+      "angular_homing_offset": 1.6
+    },
+    "readout_config": {
+      "ultravioletOpticsPathConfig": {
+        "outputPct": 100
+      },
+      "violetOpticsPathConfig": {
+        "outputPct": 34
+      },
+      "blueOpticsPathConfig": {
+        "outputPct": 71.5
+      },
+      "cyanOpticsPathConfig": {
+        "outputPct": 34
+      },
+      "greenOpticsPathConfig": {
+        "outputPct": 60
+      },
+      "amberOpticsPathConfig": {
+        "outputPct": 55.5
+      },
+      "redOpticsPathConfig": {
+        "outputPct": 66
+      },
+      "farRedOpticsPathConfig": {
+        "outputPct": 52
+      }
+    }
+  }
+}
